@@ -1,0 +1,30 @@
+[
+    {
+        "title": "Search Application",
+        "description": "Developed a search application utilizing the WikipediaAPI, enabling real-time querying of over 6 million articles in the vast Wikipedia database. Implemented real-time search, asynchronous data handling, and robust error handling, enhancing user experience with rapid response times under 2 seconds.",
+        "technologies": ["NodeJS", "JavaScript", "HTML", "CSS", "WikipediaAPI"],
+        "github": "https://github.com/atharvark960/javascript-search-app",
+        "deployment": "https://searchmewiki.vercel.app/"
+    },
+    {
+        "title": "Mental Health Chatbot",
+        "description": "Built an interactive chatbot capable of understanding and responding to user input in real-time with contextually relevant responses. Utilized natural language processing techniques to analyze user messages, achieving an accuracy of 92.57% and reducing loss to 0.42 over 600+ epochs.",
+        "technologies": ["Tensorflow", "Keras", "NLTK", "NumPy"],
+        "github": "",
+        "deployment": ""
+    },
+    {
+        "title": "Multi-Language Compiler",
+        "description": "Engineered a compiler capable of recognizing and parsing 5 languages, including C++, Java, Python, C#, and Haskell. Streamlined the token recognition and classification process, achieving an accuracy of over 95%. Built an interface to simplify input handling and visually display token classifications.",
+        "technologies": ["Python", "PLY", "Lex", "YAAC"],
+        "github": "https://github.com/atharvark960/multi-language-compiler",
+        "deployment": ""
+    },
+    {
+        "title": "BookList App",
+        "description": "Created a feature-rich booklist application using HTML, CSS, and JavaScript to manage and display a list of books. Implemented functionality for adding, editing, and deleting book entries with persistent data storage using local storage. Ensured a user-friendly and responsive design with intuitive navigation and form validation.",
+        "technologies": ["HTML", "CSS", "JavaScript"],
+        "github": "",
+        "deployment": "https://booklistcatalog.vercel.app/"
+    }    
+]

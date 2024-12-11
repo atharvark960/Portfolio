@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/96cb5595a4.js" crossorigin="anonymous"></script>
+    <script src="/index.js"></script>
+    <title>Atharva Kulkarni | Portfolio</title>
+</head>
+
+<body class="bg-gray-100 font-sans leading-relaxed tracking-wide">
+
+    <!-- Navbar -->
+    <nav class="bg-white shadow-md fixed w-full z-10 top-0">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between">
+                <div class="flex space-x-4">
+                    <!-- Logo -->
+                    <div>
+                        <a href="#" class="flex items-center py-5 px-2 text-gray-700 hover:text-gray-900">
+                            <span class="font-bold text-lg">Atharva Kulkarni</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Nav links -->
+                <div class="hidden md:flex items-center space-x-1">
+                    <a href="#about" class="py-5 px-3 text-gray-700 hover:text-gray-900">About</a>
+                    <a href="#education" class="py-5 px-3 text-gray-700 hover:text-gray-900">Education</a>
+                    <a href="#projects" class="py-5 px-3 text-gray-700 hover:text-gray-900">Projects</a>
+                    <a href="#contact" class="py-5 px-3 text-gray-700 hover:text-gray-900">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-r from-blue-500 to-teal-500 text-white text-center py-24 pt-32">
+        <img src="/profile_photo.png" 
+        alt="Profile Photo" 
+        class="mx-auto w-48 h-48 md:w-56 md:h-56 rounded-full object-cover mb-6">
+        <h1 class="text-4xl md:text-6xl font-bold">Hello, I'm Atharva Kulkarni</h1>
+        <p class="mt-4 text-lg md:text-xl">Aspiring Software Engineer | Computer Science Student</p>
+        <!-- Social Icons -->
+        <div class="flex justify-center space-x-6 mt-6">
+            <a href="https://github.com/atharvark960" target="_blank" class="text-white hover:text-gray-200">
+                <i class="fa-brands fa-github fa-xl"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/atharva-kulkarni-5b2723216/" target="_blank" class="text-white hover:text-gray-200">
+                <i class="fa-brands fa-linkedin fa-xl"></i>
+            </a>
+            <a href="mailto:atharvakulkarni960@gmail.com" target="_blank" class="text-white hover:text-gray-200">
+                <i class="fa-regular fa-envelope fa-xl"></i>
+            </a>
+        </div>
+        <a href="#contact" class="mt-6 mr-1 inline-block bg-white text-blue-600 px-6 py-3 rounded-lg font-medium hover:bg-gray-200">
+            Get in Touch
+        </a>
+        <a href="https://drive.google.com/drive/folders/1TXwCHRyNYx8-9z6cuupNgohZYMpUwgZi?usp=sharing" class="mt-6 inline-block bg-white text-blue-600 px-6 py-3 rounded-lg font-medium hover:bg-gray-200" target="_blank">
+            Resume <i class="fa-solid fa-link"></i>              
+        </a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="max-w-6xl mx-auto py-16 px-6">
+        <h2 class="text-3xl font-bold text-gray-800 mb-6">About Me</h2>
+        <p class="text-gray-600 leading-relaxed">
+            I am a passionate developer with a keen interest in building innovative and efficient solutions. 
+            I thrive on challenges and constantly set goals for myself to keep improving. I love collaborating 
+            on impactful projects and am always excited to learn new technologies.
+        </p>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="bg-gray-200 py-16">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-3xl font-bold text-gray-800 mb-6">Education</h2>
+            <ul class="space-y-4">
+                <li class="bg-white shadow-md rounded-lg p-6">
+                    <h3 class="text-xl font-semibold">B.E. in Computer Science and Engineering</h3>
+                    <p class="text-gray-600">Ramaiah Institute of Technology, Bangalore | 2021 - Present(2025) | CGPA: 8.3/10</p>
+                </li>
+                <li class="bg-white shadow-md rounded-lg p-6">
+                    <h3 class="text-xl font-semibold">Pre University Education</h3>
+                    <p class="text-gray-600">Prerana PU College, Hubli | 2019 - 2021</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="max-w-6xl mx-auto py-16 px-6">
+        <h2 class="text-3xl font-bold text-gray-800 mb-6">Projects</h2>
+        <div class="grid md:grid-cols-2 gap-6">
+            <div class="bg-white shadow-md rounded-lg p-6">
+                <h3 class="text-xl font-semibold">Search Application</h3>
+                <p class="text-gray-600 mb-4">Developed a search application utilizing the WikipediaAPI, enabling real-time querying of over 6 million articles in the vast Wikipedia database. Implemented real-time search, asynchronous data handling, and robust error handling, enhancing user experience with rapid response times under 2 seconds.</p>
+                <p class="text-gray-600 font-semibold">Technologies Used: <span class="font-normal">NodeJS, JavaScript, HTML, CSS, WikipediaAPI</span></p>
+                <div class="mt-4">
+                    <a href="https://github.com/atharvark960/javascript-search-app" target="_blank" class="text-blue-600 hover:underline">GitHub Repository</a>
+                    <span class="mx-2">|</span>
+                    <a href="https://searchmewiki.vercel.app/" target="_blank" class="text-blue-600 hover:underline">Live Demo</a>
+                </div>
+            </div>
+
+            <div class="bg-white shadow-md rounded-lg p-6">
+                <h3 class="text-xl font-semibold">Mental Health Chatbot</h3>
+                <p class="text-gray-600 mb-4">Built an interactive chatbot capable of understanding and responding to user input in real-time with contextually relevant responses. Utilized natural language processing techniques to analyze user messages, achieving an accuracy of 92.57% and reducing loss to 0.42 over 600+ epochs.</p>
+                <p class="text-gray-600 font-semibold">Technologies Used: <span class="font-normal">Tensorflow, Keras, NLTK, NumPy</span></p>
+                <div class="mt-4">
+                    <span class="text-gray-500">GitHub Repository</span>
+                    <span class="mx-2">|</span>
+                    <span class="text-gray-500">Live Demo</span>
+                </div>
+            </div>
+
+            <div class="bg-white shadow-md rounded-lg p-6">
+                <h3 class="text-xl font-semibold">Multi-Language Compiler</h3>
+                <p class="text-gray-600 mb-4">Engineered a compiler capable of recognizing and parsing 5 languages, including C++, Java, Python, C#, and Haskell. Streamlined the token recognition and classification process, achieving an accuracy of over 95%. Built an interface to simplify input handling and visually display token classifications.</p>
+                <p class="text-gray-600 font-semibold">Technologies Used: <span class="font-normal">Python, PLY, Lex, YAAC</span></p>
+                <div class="mt-4">
+                    <a href="https://github.com/atharvark960/multi-language-compiler" target="_blank" class="text-blue-600 hover:underline">GitHub Repository</a>
+                    <span class="mx-2">|</span>
+                    <span class="text-gray-500">Live Demo</span>
+                </div>
+            </div>
+
+            <div class="bg-white shadow-md rounded-lg p-6">
+                <h3 class="text-xl font-semibold">BookList App</h3>
+                <p class="text-gray-600 mb-4">Created a feature-rich booklist application using HTML, CSS, and JavaScript to manage and display a list of books. Implemented functionality for adding, editing, and deleting book entries with persistent data storage using local storage. Ensured a user-friendly and responsive design with intuitive navigation and form validation.</p>
+                <p class="text-gray-600 font-semibold">Technologies Used: <span class="font-normal">HTML, CSS, JavaScript</span></p>
+                <div class="mt-4">
+                    <span class="text-gray-500">GitHub Repository</span>
+                    <span class="mx-2">|</span>
+                    <a href="https://booklistcatalog.vercel.app/" target="_blank" class="text-blue-600 hover:underline">Live Demo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="bg-gray-200 py-16">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-3xl font-bold text-gray-800 mb-6">Contact</h2>
+            <p class="text-gray-600 mb-4">Feel free to reach out for collaboration or just a friendly chat!</p>
+            <form action="#" method="post" class="bg-white shadow-md rounded-lg p-6">
+                <div class="mb-4">
+                    <label for="name" class="block text-gray-700 font-medium">Name</label>
+                    <input type="text" id="name" name="name" required
+                        class="w-full border-2 border-black-500 rounded-lg mt-2 p-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="block text-gray-700 font-medium">Email</label>
+                    <input type="email" id="email" name="email" required
+                        class="w-full border-2 border-black-500 rounded-lg mt-2 p-2 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                </div>
+                <div class="mb-4">
+                    <label for="message" class="block text-gray-700 font-medium">Message</label>
+                    <textarea id="message" name="message" rows="4" required
+                        class="w-full border-2 border-black-500 rounded-lg mt-2 p-2 focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+                </div>
+                <button type="submit" class="w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600">
+                    Send Message
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white text-center py-4">
+        <p>&copy; 2024 Atharva Kulkarni. All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Atharva Kulkarni</title>
+</head>
+<body>
+    
+</body>
+</html>
